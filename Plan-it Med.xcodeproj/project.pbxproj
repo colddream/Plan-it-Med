@@ -76,11 +76,11 @@
 		7C1B226717658A0B00B20031 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1B226617658A0900B20031 /* Team.m */; };
 		7C1D9905177069E3000A1207 /* DailyActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1D9902177069E3000A1207 /* DailyActivityView.m */; };
 		7C1D9906177069E3000A1207 /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1D9904177069E3000A1207 /* MenuCell.m */; };
+		7C209959177A8AE00071DE91 /* KiipSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C209957177A8AE00071DE91 /* KiipSDK.framework */; };
+		7C20995A177A8AE00071DE91 /* KiipSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7C209958177A8AE00071DE91 /* KiipSDKResources.bundle */; };
 		7C20F88F176F1914001FA88B /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C20F88E176F1914001FA88B /* TodayViewController.m */; };
 		7C2446671778450500CE72CD /* ImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2446661778450500CE72CD /* ImageHelper.m */; };
 		7C24466A1778588800CE72CD /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2446691778588700CE72CD /* ScheduleViewController.m */; };
-		7C26AEB01769907700798B96 /* KiipSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C26AEAF1769907700798B96 /* KiipSDK.framework */; };
-		7C26AEB3176990DE00798B96 /* KiipSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7C26AEB2176990DE00798B96 /* KiipSDKResources.bundle */; };
 		7C26AEB51769941600798B96 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C26AEB41769941600798B96 /* CoreTelephony.framework */; };
 		7CA9AC82177446F600A25436 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA9AC81177446F600A25436 /* Button.m */; };
 		7CB84D5A175C352600FB7C9E /* BaseHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB84D59175C352600FB7C9E /* BaseHTTPClient.m */; };
@@ -247,14 +247,14 @@
 		7C1D9902177069E3000A1207 /* DailyActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyActivityView.m; sourceTree = "<group>"; };
 		7C1D9903177069E3000A1207 /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
 		7C1D9904177069E3000A1207 /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
+		7C209957177A8AE00071DE91 /* KiipSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KiipSDK.framework; sourceTree = "<group>"; };
+		7C209958177A8AE00071DE91 /* KiipSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KiipSDKResources.bundle; sourceTree = "<group>"; };
 		7C20F88D176F1914001FA88B /* TodayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		7C20F88E176F1914001FA88B /* TodayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		7C2446651778450500CE72CD /* ImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHelper.h; sourceTree = "<group>"; };
 		7C2446661778450500CE72CD /* ImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageHelper.m; sourceTree = "<group>"; };
 		7C2446681778588700CE72CD /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
 		7C2446691778588700CE72CD /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
-		7C26AEAF1769907700798B96 /* KiipSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KiipSDK.framework; sourceTree = "<group>"; };
-		7C26AEB2176990DE00798B96 /* KiipSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KiipSDKResources.bundle; sourceTree = "<group>"; };
 		7C26AEB41769941600798B96 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		7CA9AC80177446F600A25436 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
 		7CA9AC81177446F600A25436 /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
@@ -377,7 +377,7 @@
 				7CE01755174F071000C33407 /* Foundation.framework in Frameworks */,
 				7CE01757174F071000C33407 /* CoreGraphics.framework in Frameworks */,
 				7CB84D7C175C9B0900FB7C9E /* libFlurry.a in Frameworks */,
-				7C26AEB01769907700798B96 /* KiipSDK.framework in Frameworks */,
+				7C209959177A8AE00071DE91 /* KiipSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +548,15 @@
 			path = CustomViews;
 			sourceTree = "<group>";
 		};
+		7C209956177A8AE00071DE91 /* Kiip */ = {
+			isa = PBXGroup;
+			children = (
+				7C209957177A8AE00071DE91 /* KiipSDK.framework */,
+				7C209958177A8AE00071DE91 /* KiipSDKResources.bundle */,
+			);
+			path = Kiip;
+			sourceTree = "<group>";
+		};
 		7CB84D75175C870900FB7C9E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -666,8 +675,6 @@
 		7CE01743174F071000C33407 = {
 			isa = PBXGroup;
 			children = (
-				7C26AEB41769941600798B96 /* CoreTelephony.framework */,
-				7C26AEB2176990DE00798B96 /* KiipSDKResources.bundle */,
 				7CFA709617583A5A0027A145 /* ExtraFrameworks */,
 				7CE01758174F071000C33407 /* Plan-it Med */,
 				7CE01751174F071000C33407 /* Frameworks */,
@@ -686,7 +693,7 @@
 		7CE01751174F071000C33407 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7C26AEAF1769907700798B96 /* KiipSDK.framework */,
+				7C26AEB41769941600798B96 /* CoreTelephony.framework */,
 				7CFAB20817588B3800ADAC2B /* QuartzCore.framework */,
 				7C12B9B617534350002A28E0 /* SystemConfiguration.framework */,
 				7CE0180B174F59BE00C33407 /* libextobjc */,
@@ -742,6 +749,7 @@
 		7CFA709617583A5A0027A145 /* ExtraFrameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C209956177A8AE00071DE91 /* Kiip */,
 				7C0F66041779A014003B3BAD /* CKCalendar */,
 				7C1670A3176ECD09008A400B /* SIAlertView */,
 				7C18CC4F176879E100681479 /* SASlideMenu */,
@@ -899,12 +907,12 @@
 				7C18CCAB1768859800681479 /* Splash-Screen-568h@2x.png in Resources */,
 				7C18CCAC1768859800681479 /* Splash-Screen.png in Resources */,
 				7C18CCAD1768859800681479 /* Splash-Screen@2x.png in Resources */,
-				7C26AEB3176990DE00798B96 /* KiipSDKResources.bundle in Resources */,
 				7C1670A7176ECD09008A400B /* SIAlertView.bundle in Resources */,
 				7C0F660D1779A014003B3BAD /* left_arrow.png in Resources */,
 				7C0F660E1779A014003B3BAD /* left_arrow@2x.png in Resources */,
 				7C0F660F1779A014003B3BAD /* right_arrow.png in Resources */,
 				7C0F66101779A014003B3BAD /* right_arrow@2x.png in Resources */,
+				7C20995A177A8AE00071DE91 /* KiipSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1088,6 +1096,7 @@
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/ExtraFrameworks/Kiip\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Plan-it Med/Plan-it Med-Prefix.pch";
@@ -1108,6 +1117,7 @@
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/ExtraFrameworks/Kiip\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Plan-it Med/Plan-it Med-Prefix.pch";
