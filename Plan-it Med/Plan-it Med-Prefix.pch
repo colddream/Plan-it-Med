@@ -1,0 +1,19 @@
+//
+// Prefix header for all source files of the 'Plan-it Med' target in the 'Plan-it Med' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define BASE_URL @"http://166.78.159.153/new_source/index.php/api/"
+#define BASE_IP @"http://166.78.159.153"
+#define BASE_PATH @"/new_source/index.php/api/"
+#define BASE_HOSTNAME @"166.78.159.153"
